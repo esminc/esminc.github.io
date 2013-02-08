@@ -1,0 +1,607 @@
+// Top
+
+
+$blue: #3985a6
+$gray: #333
+$red: #c00
+
+
+/////////////////////////////////////////////////////////////////////////
+
+
+html
+	background: url(../img/bg.png)
+
+body
+	margin: 0
+	font-family: Helvetica, Arial, "メイリオ", "ヒラギノ角ゴ Pro W6", "ＭＳ Ｐゴシック", sans-serif
+	color: $gray
+	line-height: 1.7
+
+img
+	border: none
+
+
+// -----------------------------
+// Header
+// -----------------------------
+.header
+	background: white
+	background: rgba(255,255,255,.8)
+	+box-shadow(rgba(0,0,0,.05) 0 4px 4px)
+	padding: 20px 0 10px
+	position: fixed
+	top: 0
+	left: 0
+	width: 100%
+	z-index: 9999
+
+	.wrapper
+		width: 960px
+		margin: 0 auto
+		position: relative
+
+		p
+			margin: 0
+
+		.contact
+			margin: 0
+			position: absolute
+			top: 0
+			right: 0
+
+		li
+			margin: 0
+			padding: 0
+			list-style: none
+			float: left
+
+			&.tel-number
+				font-size: 22px
+				margin: 5px 10px 0 0
+				line-height: 1.1
+				color: #333
+
+			span
+				display: block
+				font-size: 11px
+				text-align: right
+
+			a
+				&:hover
+					opacity: .8
+
+
+// -----------------------------
+// Article
+// -----------------------------
+article
+	width: 960px
+	margin: 0 auto
+	padding-top: 90px
+
+
+	// Twitter, Facebook button
+	.socialparts
+		font-size: 1px
+		width: 960px
+		margin: 10px auto 0
+		position: relative
+
+		ul
+			position: absolute
+			top: 0
+			right: 0
+
+			li
+				float: left
+				margin-left: 10px
+				width: 90px
+				overflow: hidden
+
+				&.facebook
+					width: 97px
+
+					.hoge
+						font-size: 1px
+
+
+
+						
+
+	.visual
+		margin: 110px 0
+
+		h1
+			margin: 0 0 20px
+
+		p
+			margin: 0
+
+	section
+		background: url(../img/img_ornament.png) bottom center no-repeat
+		margin: 0 0 80px
+		padding: 0 0 100px
+
+		h2
+			margin: 0 0 40px
+
+		h3
+			margin: 0
+			padding: 0
+			line-height: 1
+
+		p
+			margin: 0
+
+// サービスの特徴
+.feature
+
+	h3
+		color: $blue
+		font-size: 22px
+		line-height: 1
+		margin: 0
+		padding: 0
+
+	p
+		margin: 1em 0
+
+	.arranged
+		margin-top: -20px
+		padding: 20px 375px 0 0
+		background: url(../img/img_lightbulb.png) 730px 0 no-repeat
+		height: 275px
+
+	.get-blueprint
+		margin-left: -35px
+		padding: 10px 0 0 350px
+		background: url(../img/img_blueprint.png) top left no-repeat
+		height: 275px
+
+	.short-time
+		padding-right: 375px
+		background: url(../img/img_clock.png) 700px 0 no-repeat
+		height: 220px
+
+	.about-userstory
+		background: #e9e9e9
+		background: rgba(0,0,0,.05)
+		+border-radius(5px)
+		+box-shadow(rgba(0,0,0,.1) 0 0 7px inset)
+		width: 780px
+		padding: 40px
+		margin: 0 auto
+		+clearfix
+
+		h3
+			color: #333
+			text-align: center
+			margin: 0 0 30px
+			font-size: 24px
+
+		.image-right
+			float: right
+			margin: 0 0 0 20px
+
+		p
+			line-height: 1.7
+
+
+// ワークショップの流れ
+.flow
+	h2
+		margin-bottom: 40px
+
+	h3
+		color: #333
+		font-size: 22px
+		font-weight: bold
+		padding-left: 55px
+		background: url() left center no-repeat
+		line-height: 44px
+		
+
+	p
+		margin: 0
+		padding-left: 55px
+
+
+	.hearing
+		padding: 0 520px 20px 0
+
+		h3
+			background-image: url(../img/img_number1.png)
+
+	.discussion
+		padding: 10px 0 20px 480px
+		background: url(../img/arrow_right.png) 315px 0 no-repeat
+
+		h3
+			background-image: url(../img/img_number2.png)
+
+
+	.put-story
+		padding: 30px 490px 0 20px
+		background: url(../img/arrow_left.png) 480px 0 no-repeat			
+
+		h3
+			background-image: url(../img/img_number3.png)
+
+	.finish
+		padding: 50px 0 0 500px
+		background: url(../img/arrow_right.png) 300px 0 no-repeat
+
+
+		h3
+			background-image: url(../img/img_number4.png)
+
+
+// Q＆A
+.qa
+	.wrapper
+		width: 980px
+		margin-left: -20px
+		+clearfix
+
+		.question
+			width: 470px
+			float: left
+			margin: 0 0 40px 20px
+
+			&:nth-child(2n-1)
+				clear: left
+
+			h3
+				color: $blue
+				font-size: 16px
+				font-weight: normal
+				line-height: 33px
+				background: url(../img/img_q.png) left center no-repeat
+				padding-left: 40px
+				margin-bottom: 15px
+
+			p
+				background: url(../img/img_a.png) left top no-repeat
+				padding: 0px 0 0 40px
+				font-size: 14px
+				color: $gray
+				min-height: 40px
+
+
+// お客様の声
+.voice
+	.wrapper
+		width: 980px
+		margin-left: -20px
+		+clearfix
+
+		.client-with-face
+			+border-radius(3px)
+			+box-shadow(rgba(0,0,0,.1) 0 1px 1px)
+			background: white
+			width: 430px
+			margin: 0 0 20px 20px
+			padding: 20px
+			float: left
+			+min-height(150px)
+
+
+			.face
+				margin: 0
+				float: left
+
+				img
+					border: 5px solid #e6e6e6
+
+			h3
+				font-weight: normal
+				font-size: 18px
+				margin-left: 120px
+				margin-bottom: 10px
+
+				span
+					font-size: 11px
+					display: block
+					margin-bottom: 5px
+
+			p
+				margin-left: 120px
+				font-size: 14px
+
+		.client
+			@extend .client-with-face
+			+min-height(150px)
+
+			h3, p
+				margin: 0
+
+			p
+				margin-bottom: 1em
+
+
+// 料金紹介
+.price
+	p
+		text-align: center
+		margin-bottom: 10px
+
+	ul
+		width: 740px
+		margin: 0 auto
+		padding: 0
+
+		li
+			list-style: none
+			margin: 0 0 0 10px
+			padding: 0
+			font-size: 12px
+			color: #666
+
+
+// 永和システムマネジメントについて
+.about
+	h2
+		margin-bottom: 30px
+
+	p
+		margin: 0 40px 1em
+		font-size: 14px
+		line-height: 1.8
+
+	strong
+		color: $red
+		font-size: 16px
+		margin: 0 3px
+		font-weight: bold
+
+	.agile
+		margin-top: 80px
+
+
+// お問い合せフォーム
+.contact
+	background: none
+	margin-bottom: 120px
+	padding: 0
+
+	.error-message
+		width: 490px
+		margin: 0 auto
+		color: $red
+
+		p
+			text-align: left !important
+
+	.error
+		color: $red
+
+
+	.form-outer
+		+box-shadow(rgba(0,0,0,.5) 0 3px 10px)
+		+border-radius(18px)
+		padding-bottom: 10px
+		background: url(../img/bg_wood_dark.jpg) top left
+		width: 800px
+		margin: 0 auto
+
+	.form-inner
+		background: url(../img/bg_wood.jpg) top right
+		padding: 20px
+		+box-shadow(rgba(0,0,0,.1) 0 5px 5px)
+		+border-radius(18px)
+		//+rotate(45deg)
+
+
+	.form-paper
+		background: #fcfcf9
+		+box-shadow(rgba(0,0,0,.3) 0 3px 5px, rgba(255,255,255,.5) 0 0 5px 1px inset)
+		padding: 50px 0
+
+		input[type=text], textarea
+			border: 1px solid #ccc
+			+border-radius(3px)
+			background: white
+			+box-shadow(rgba(0,0,0,.06) 0 3px 3px inset, rgba(255,255,255,.8) 0 1px 0) 
+			width: 490px
+			font-size: 16px
+
+		input[type=text]
+			padding: 8px 10px
+			width: 470px
+
+
+		select
+			border: 1px solid #ccc
+			height: 30px
+			line-height: 30px
+			font-size: 14px
+			padding: 5px
+
+
+		dl
+			width: 490px
+			margin: 0 auto
+
+			dd
+				margin: 0 0 20px
+
+			.required
+				color: $red
+				margin-left: 10px
+				font-size: 12px
+
+		p
+			text-align: center
+
+		.btn-confirm
+			width: 380px
+			height: 80px
+			background: url(../img/btn_confirm.png) left center no-repeat
+			border: none
+			cursor: pointer
+
+			&:hover
+				opacity: .8
+
+
+		// mail-address ver
+		.mail-paper
+			padding: 50px
+			position: relative
+
+			p
+				font-size: 14px
+				margin-bottom: .8em
+
+				&.left
+					text-align: left
+
+			.mailaddress
+				font-family: 'Bitter', Helvetica, Verdana, serif
+				font-style: italic
+				font-size: 28px
+
+			.pen
+				position: absolute
+				top: -100px
+				right: -80px
+
+
+
+
+
+// -----------------------------
+// Footer
+// -----------------------------
+.footer
+	background: url(../img/bg_footer.png)
+	+box-shadow(rgba(0,0,0,.2) 0 3px 3px inset)
+	padding: 20px 0 40px
+	font-size: 12px
+
+	.wrapper
+		width: 960px
+		margin: 0 auto
+
+	p
+		margin: 0
+
+	.privacy
+		float: right
+
+	a
+		color: white
+		+text-shadow(rgba(0,0,0,.1) 0 1px 0)
+		text-decoration: none
+
+
+
+
+// -----------------------------
+// フォームの各画面
+// -----------------------------
+
+// 共通パーツ
+.form-h2
+	margin-top: 50px
+
+.finish-message, .message
+	width: 490px
+	margin: 0 auto 40px
+	font-size: 16px
+
+	p
+		text-align: left !important
+
+	a
+		color: #188aba
+
+		&:hover
+			text-decoration: none
+
+
+.back-to-home
+	a
+		text-decoration: none
+		color: white
+		padding: 15px 30px
+		background: #3a86a6
+		width: 300px
+		margin: 50px auto 0
+		display: block
+		text-align: center
+
+
+// 確認画面
+.confirm
+	h2
+		@extend .form-h2
+
+	.confirm-message
+		width: 490px
+		margin: 0 auto 40px
+		font-size: 14px
+
+		p
+			text-align: left
+
+	.btn-back
+		width: 250px
+		height: 80px
+		background: url(../img/btn_back.png) left center no-repeat
+		border: none
+		cursor: pointer
+
+		&:hover
+			opacity: .8
+
+	.btn-send
+		width: 250px
+		height: 80px
+		background: url(../img/btn_send.png) left center no-repeat
+		border: none
+		cursor: pointer
+
+		&:hover
+			opacity: .8
+
+	.inline
+		display: inline
+
+	.btns
+		text-align: center
+
+
+	dl
+		border-bottom: 1px solid #ccc
+		margin-bottom: 40px !important
+
+	dt
+		font-weight: bold
+		border-top: 1px solid #ccc
+		padding-top: 10px
+		color: #666
+
+	dd
+		margin: 0 !important
+		padding-bottom: 10px
+
+
+
+// エラー画面
+.error
+	h2
+		@extend .form-h2
+		font-weight: bold
+		font-size: 20px
+
+	.message
+		h2
+			margin-top: 0
+
+
+// 完了画面
+.finish
+	h2
+		@extend .form-h2
