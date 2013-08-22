@@ -1,0 +1,52 @@
+body {  width: 500px; margin: 10px auto ;}
+.m12 {  font-size: 12px ; line-height: 18px ;}
+.m14 {  font-size: 14px ; line-height: 18px ; }
+.m16 {  font-size: 16px ; line-height: 18px ; }
+.s11 {  font-size: 10px ; line-height: 14px ; }
+.s10 {  font-size: 10px ; line-height: 14px ; }
+.cap {  font-size: 12px ; font-weight:bold; line-height: 14px ; color:#5a4498}
+
+.qared {  font-size: 12px ; line-height: 18px ; color:#EF2421}
+.user { font-size: 12px ; line-height: 18px ; color: #111111}
+.userblue { font-size: 12px ; line-height: 18px ; color: #424994}
+.brown2 { font-size: 12px ; line-height: 18px ; color: #8A672E}
+.interviewer { font-size: 14px ; line-height: 24px ; color: #000077}
+.trialblue {  font-size: 16px ;font-weight:bold; line-height: 18px ; color:#0391AF}
+
+.trialblue {  font-size: 16px ;font-weight:bold; line-height: 18px ; color:#0391AF}
+
+.kyo {background-color:#ffeb99;font-weight:bold;}
+
+body
+{
+    COLOR: #333333;
+        FONT-SIZE: 12px
+   margin-left : 0px;
+   margin-top : 0px;
+
+
+}
+
+td
+{
+        FONT-SIZE: 14px;
+line-height: 24px;
+
+
+}
+
+div
+{
+
+
+}
+
+a
+{
+
+}
+a:link{ color: #00a498; text-decoration: underline}
+a:visited { color: #00a498; text-decoration: underline}
+a:active { color: #FF9900; text-decoration: underline}
+a:hover { color: #FF9900; text-decoration: underline}
+
