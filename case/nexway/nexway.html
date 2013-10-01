@@ -27,22 +27,17 @@ body
     COLOR: #333333;
     FONT-SIZE: 12px
     margin-left : 0px;
-    margin-top : 0px;
+    margin-top : 90px;
 }
 
-td
-{
+td {
     FONT-SIZE: 14px;
     line-height: 24px;
 }
 
-div
-{
-}
+div {}
 
-a
-{
-}
+a {}
 a:link{ color: #00a498; text-decoration: underline}
 a:visited { color: #00a498; text-decoration: underline}
 a:active { color: #FF9900; text-decoration: underline}
@@ -81,11 +76,68 @@ margin-bottom: 8px;
   padding-right: 14px;
 }
 
+.header{
+  background:#fff;
+  background:rgba(255,255,255,0.8);
+  -webkit-box-shadow:rgba(0,0,0,0.05) 0 4px 4px;
+  -moz-box-shadow:rgba(0,0,0,0.05) 0 4px 4px;
+  box-shadow:rgba(0,0,0,0.05) 0 4px 4px;
+  padding:20px 0 10px;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:9999
+}
+.header .wrapper{width:960px;margin:0 auto;position:relative}
+.header .wrapper p{margin:0}
+.header .wrapper .contact{margin:0;position:absolute;top:0;right:0}
+.header .wrapper li{margin:0;padding:0;list-style:none;float:left}
+.header .wrapper li.tel-number{font-size:22px;margin:5px 10px 0 0;line-height:1.1;color:#333}
+.header .wrapper li span{display:block;font-size:11px;text-align:right}
+.header .wrapper li a:hover{opacity:0.8}
+
+.socialparts{font-size:1px;width:960px;margin:10px auto 0;position:relative}
+.socialparts ul{position:absolute;top:0;right:0}
+.socialparts ul li{float:left;margin-left:10px;width:90px;overflow:hidden}
+.socialparts ul li.facebook{width:97px}
+.socialparts ul li.facebook .hoge{font-size:1px}
+
 
 </style>
 
 </head>
-<body><p>
+<body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+
+        <header class="header">
+            <div class="wrapper">
+                <p><a href="http://www.esm.co.jp/"><img src="img_logo.png" alt="esm 永和システムマネジメント"></a></p>
+                <ul class="contact">
+                    <li class="tel-number">Tel 03-5818-7400<span>平日 10:00～18:00 担当 羽根田</span></li>
+                    <li><a href="http://www.esm.co.jp/contact.html"><img src="http://www.esm.co.jp/assets/images/btn_to_contact_off.jpg" alt="お問合せはこちらから" width="254" height="44" /></a></li>
+                </ul>
+            </div>
+        </header>
+        
+        
+            <div class="socialparts">
+                <ul>
+                    <li class="facebook"><div class="fb-like" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div></li>
+                    <li class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja">ツイート</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+                </ul>
+            </div>
+
+<p>
 
 <p>
 <center>
