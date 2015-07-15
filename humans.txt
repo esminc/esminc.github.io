@@ -44,12 +44,12 @@
   Design: Teppei Machida (FJORD,LLC)
   Contact: machida@fjord.jp
   Twitter: @machida
-  Github: machida
+  GitHub: machida
 
   Direction: Fumihiko Kinoshita
   Twitter: @fkino
-  Github: fkino
+  GitHub: fkino
 
   Direction: Kazuki Baba
   Twitter: @kbaba1001
-  Github: kbaba1001
+  GitHub: kbaba1001
