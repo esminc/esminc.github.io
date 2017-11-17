@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>株式会社永和システムマネジメント アジャイル事業部</title>
+  <subtitle>永和システムマネジメント アジャイル事業部は、Rubyとアジャイル開発手法を用いた受託ソフトウェア開発とコンサルティングの専門組織です。アジャイルなプロセスと妥協のないエンジニアリングによって お客さまに価値を提供し続けます。</subtitle>
+  <id>http://agile.esm.co.jp/news</id>
+  <link href="http://agile.esm.co.jp/news"/>
+  <link href="http://agile.esm.co.jp/feed.xml" rel="self"/>
+  <updated>2017-11-05T15:00:00+00:00</updated>
+  <author>
+    <name>永和システムマネジメント アジャイル事業部</name>
+  </author>
+  <entry>
+    <title>Rails / OSS パッチ会 11月のお知らせ</title>
+    <link rel="alternate" href="http://agile.esm.co.jp/news/2017-11-06-rails-oss-patch-meetup-20171110.html"/>
+    <id>http://agile.esm.co.jp/news/2017-11-06-rails-oss-patch-meetup-20171110.html</id>
+    <published>2017-11-05T15:00:00+00:00</published>
+    <updated>2017-11-17T06:38:01+00:00</updated>
+    <author>
+      <name>永和システムマネジメント アジャイル事業部</name>
+    </author>
+    <contents type="html">&lt;p&gt;Rails / OSS パッチ会を2017年11月10日(金)に開催します。&lt;/p&gt;
+
+&lt;p&gt;これまでは主に社内からの繋がりに閉じていたものを今月からオープンに行なうことにしました。&lt;br&gt;
+開催時間は 17:00-19:00 となりますがご都合のあう方はぜひご参加下さい。特に募集ページなど設けませんので、興味のある方は永和システムマネジメントの神田オフィスまでお越し下さい。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://agile.esm.co.jp/about/office.html#nav"&gt;http://agile.esm.co.jp/about/office.html#nav&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;この会をひとことでいうと、日頃のお仕事で使っている Rails をはじめとする OSS への upstream にパッチを送る会です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/rails/rails/graphs/contributors?from=2017-01-01&amp;amp;to=2017-11-06"&gt;2017年に入ってから現在までの Rails のコントリビューション Top 10 のうち半数の5人が日本人&lt;/a&gt;ということからも、&lt;a href="http://www.atmarkit.co.jp/news/200907/21/rails.html"&gt;&amp;ldquo;日本のRailsは残念。日本でRailsが使われてないということはないと思うが、それにしては開発者が少ない。私が見たところ1300人中で日本人らしき人は数人。&amp;rdquo;&lt;/a&gt; という状況からだいぶ変わってきましたが、Rails へのパッチへの関心を持つ人がひとりでも増えれば良いなと思って開催を続けています。&lt;/p&gt;
+
+&lt;p&gt;会には &lt;a href="http://agile.esm.co.jp/members/advisers/a_matsuda.html"&gt;Ruby と Rails のコミッターである顧問の a_matsuda&lt;/a&gt; もいますので、例えば Rails に送るパッチのネタがあるけれど、パッチを送るに適しているかの判断やパッチを送る流れが悩ましいときなど a_matsuda に相談して足がかりにするなどできます。&lt;/p&gt;
+
+&lt;p&gt;これまでのパッチ会の雰囲気については &lt;a href="https://www.google.co.jp/search?q=rails+oss+%E3%83%91%E3%83%83%E3%83%81%E4%BC%9A"&gt;&amp;ldquo;rails oss パッチ会&amp;rdquo;&lt;/a&gt; でおググり下さい。&lt;/p&gt;
+</contents>
+  </entry>
+  <entry>
+    <title>RubyWorld Conference 2017 に Platinum Sponsor として協賛します</title>
+    <link rel="alternate" href="http://agile.esm.co.jp/news/2017-10-20-platinum-sponsor-on-rubyworld-conference-2017.html"/>
+    <id>http://agile.esm.co.jp/news/2017-10-20-platinum-sponsor-on-rubyworld-conference-2017.html</id>
+    <published>2017-10-19T15:00:00+00:00</published>
+    <updated>2017-11-17T06:38:01+00:00</updated>
+    <author>
+      <name>永和システムマネジメント アジャイル事業部</name>
+    </author>
+    <contents type="html">&lt;p&gt;11月1日(水)から11月2日(木)の2日間、島根県松江市で開催される &lt;a href="http://2017.rubyworld-conf.org/"&gt;RubyWorld Conference 2017&lt;/a&gt; の Platinum Sponsor として協賛します。&lt;/p&gt;
+
+&lt;h2&gt;基調講演&lt;/h2&gt;
+
+&lt;p&gt;2日目の午前中の基調講演に弊社フェロー兼アジャイル事業部顧問である &lt;a href="http://agile.esm.co.jp/members/advisers/kakutani.html"&gt;角谷信太郎氏&lt;/a&gt; が登壇します。&lt;/p&gt;
+
+&lt;p&gt;11月2日(木) 10:15 - 11:15 @島根県立産業交流会館「くにびきメッセ」3階・国際会議場&lt;br&gt;
+基調講演-2 / 角谷 信太郎&lt;/p&gt;
+
+&lt;h2&gt;ショートプレゼンテーション&lt;/h2&gt;
+
+&lt;p&gt;1日目のランチタイムに弊社 &lt;a href="http://agile.esm.co.jp/members/developers/junk0612.html"&gt;小林純一&lt;/a&gt; がショートプレゼンテーションを行います。&lt;/p&gt;
+
+&lt;p&gt;11月1日(水) 12:35 - 12:45 @島根県立産業交流会館「くにびきメッセ」1階・大展示場&lt;br&gt;
+『ESM に入ってよかったと思う5つの理由』 / 小林 純一&lt;/p&gt;
+
+&lt;h2&gt;ブース出展&lt;/h2&gt;
+
+&lt;p&gt;会期中、会場内 (1階・大展示場) にブースを出展します。ブースでは粗品を配布します。ぜひ、永和システムマネジメント アジャイル事業部ブースにお立ち寄りください。&lt;/p&gt;
+
+&lt;p&gt;また、今回は6名のメンバーが参加します。会場でお会いしましょう。&lt;/p&gt;
+</contents>
+  </entry>
+  <entry>
+    <title>RubyKaigi 2017 にブース出展します</title>
+    <link rel="alternate" href="http://agile.esm.co.jp/news/2017-09-15-rubykaigi-2017-sponsor-booth.html"/>
+    <id>http://agile.esm.co.jp/news/2017-09-15-rubykaigi-2017-sponsor-booth.html</id>
+    <published>2017-09-14T15:00:00+00:00</published>
+    <updated>2017-11-17T06:38:01+00:00</updated>
+    <author>
+      <name>永和システムマネジメント アジャイル事業部</name>
+    </author>
+    <contents type="html">&lt;p&gt;9月18日(月)から9月20日(水)の3日間に、広島で開催される &lt;a href="http://rubykaigi.org/2017"&gt;RubyKaigi 2017&lt;/a&gt; に Platinum Drinkup Sponsor としてブース出展します。&lt;/p&gt;
+
+&lt;p&gt;ブースでは団扇 (折りたたみ式) と扇子をお配りします。扇子は白地の部分を多くとってありますので好きな言葉や好きなメソッド名を書いていただき、オリジナルの扇子を作ってみてください。また、弊社に興味を持っていただいた方には、アジャイル事業部の事業部計画書をお渡しします。 いずれも数量限定です。&lt;/p&gt;
+
+&lt;p&gt;ぜひ、永和システムマネジメント アジャイル事業部ブースにお立ち寄りください。&lt;/p&gt;
+
+&lt;p&gt;今回も弊社からは15人もの多くのメンバーが参加します。それでは、会場でお会いしましょう!!&lt;/p&gt;
+</contents>
+  </entry>
+  <entry>
+    <title>RubyKaigi 2017 の Drinkup 参加者の募集を開始しました</title>
+    <link rel="alternate" href="http://agile.esm.co.jp/news/2017-08-18-call_for_esm_drinkup_on_rubykaigi_2017.html"/>
+    <id>http://agile.esm.co.jp/news/2017-08-18-call_for_esm_drinkup_on_rubykaigi_2017.html</id>
+    <published>2017-08-17T15:00:00+00:00</published>
+    <updated>2017-11-17T06:38:01+00:00</updated>
+    <author>
+      <name>永和システムマネジメント アジャイル事業部</name>
+    </author>
+    <contents type="html">&lt;p&gt;ESM Drinkup at &lt;a href="http://rubykaigi.org/2017"&gt;RubyKaigi 2017&lt;/a&gt; 参加者の募集を開始しました。&lt;/p&gt;
+
+&lt;p&gt;Drinkup の開催日は RubyKaigi 2017 2日目の本編終了後となります。&lt;br&gt;
+&lt;a href="http://agile.esm.co.jp/news/2015-12-29-rubykaigi2015-drinkup-report.html"&gt;2年前の Drinkup&lt;/a&gt; に続き、お酒をたくさん用意してお待ちしております。お席に限りはございますが、RubyKaigi 2017 に参加された方々の交流の場としてご利用ください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;日時: 2017年9月19日(火) 19:00~22:00&lt;/li&gt;
+&lt;li&gt;場所: &lt;a href="https://tabelog.com/hiroshima/A3401/A340101/34019240/"&gt;La Vague&lt;/a&gt; (広島市中区大手町2-5-11)&lt;/li&gt;
+&lt;li&gt;地図: &lt;a href="https://www.google.co.jp/maps?q=34.3918746,132.45500909999998"&gt;Google Maps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;金額: 無料 (募集時に人数制限がつきます)&lt;/li&gt;
+&lt;li&gt;日本酒スーパーバイザー: &lt;a href="https://twitter.com/joker1007"&gt;@joker1007&lt;/a&gt; (&lt;a href="https://repro.io/jp/"&gt;Repro株式会社&lt;/a&gt; CTO)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;募集サイトは、以下となります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://esm-drinkup-2017.doorkeeper.jp/events/63804"&gt;https://esm-drinkup-2017.doorkeeper.jp/events/63804&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;参加応募お待ちしております。&lt;/p&gt;
+</contents>
+  </entry>
+  <entry>
+    <title>RubyKaigi 2017 に Platinum Drinkup Sponsor として協賛します</title>
+    <link rel="alternate" href="http://agile.esm.co.jp/news/2017-08-10-drinkup-sponsor-on-rubykaigi-2017.html"/>
+    <id>http://agile.esm.co.jp/news/2017-08-10-drinkup-sponsor-on-rubykaigi-2017.html</id>
+    <published>2017-08-09T15:00:00+00:00</published>
+    <updated>2017-11-17T06:38:01+00:00</updated>
+    <author>
+      <name>永和システムマネジメント アジャイル事業部</name>
+    </author>
+    <contents type="html">&lt;p&gt;9月18日(月)から9月20日(水)の3日間に、広島で開催される &lt;a href="http://rubykaigi.org/2017"&gt;RubyKaigi 2017&lt;/a&gt; に Platinum Drinkup Sponsor として協賛します。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://agile.esm.co.jp/news/2015-12-29-rubykaigi2015-drinkup-report.html"&gt;2年前の Drinkup&lt;/a&gt; に続き、お酒をたくさん用意してお待ちしております。席に限りはございますが、RubyKaigi 2017 に参加された方々の交流の場としてご利用ください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;日時: 2017年9月19日(火) RubyKaigi 2017 2日目終了後&lt;/li&gt;
+&lt;li&gt;場所: &lt;a href="https://tabelog.com/hiroshima/A3401/A340101/34019240/"&gt;La Vague&lt;/a&gt; (広島市中区大手町2-5-11)&lt;/li&gt;
+&lt;li&gt;金額: 無料 (募集時に人数制限がつきます)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;8月18日(金) より募集サイトにて参加申込みの受付を開始します。募集サイトを公開しましたらあらためてご案内しますので、いましばらくお待ちください。&lt;/p&gt;
+</contents>
+  </entry>
+  <entry>
+    <title>Agile Japan 2017 のサテライトスポンサーとして全国のサテライト会場に弊社メンバーがおじゃまします</title>
+    <link rel="alternate" href="http://agile.esm.co.jp/news/2017-05-26-agilejapan2017-satellite-sponsor.html"/>
+    <id>http://agile.esm.co.jp/news/2017-05-26-agilejapan2017-satellite-sponsor.html</id>
+    <published>2017-05-25T15:00:00+00:00</published>
+    <updated>2017-11-17T06:38:01+00:00</updated>
+    <author>
+      <name>永和システムマネジメント アジャイル事業部</name>
+    </author>
+    <contents type="html">&lt;p&gt;4/13(木) に開催されました&lt;a href="http://www.agilejapan.org/"&gt;Agile Japan 2017&lt;/a&gt; に、今年も永和システムマネジメントはサテライトスポンサーとして協賛しています。&lt;/p&gt;
+
+&lt;p&gt;全国で開催されるサテライトのうち、要請をいただいたところに弊社のメンバーが出向き、アジャイル開発に関する講演や事例発表を行います。地域のコミュニティの方と盛り上がって行ければと思っています。&lt;/p&gt;
+
+&lt;p&gt;全国 7箇所におじゃまする予定です。&lt;/p&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;会場&lt;/th&gt;
+&lt;th style="text-align: left"&gt;日程&lt;/th&gt;
+&lt;th style="text-align: left"&gt;おじゃまするメンバー&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://agile-no-wa-tochigi.connpass.com/event/54864/"&gt;栃木&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;5/21(土)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;平田 守幸&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://agile-hokuriku.connpass.com/event/57272/"&gt;富山&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6/24(土)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;木下 史彦&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://nagoyaagile.connpass.com/event/56655/"&gt;名古屋&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6/3(土)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;天野 勝&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;福岡&lt;/td&gt;
+&lt;td style="text-align: left"&gt;日程調整中&lt;/td&gt;
+&lt;td style="text-align: left"&gt;平田 守幸&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://nagasaki-it-engineers.connpass.com/event/55052/"&gt;長崎&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;7/1(土)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;梶田 英邦&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://connpass.com/event/57698/"&gt;宮崎&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;7/14(金)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;天野 勝&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://java-kuche.doorkeeper.jp/events/60016"&gt;沖縄&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;6/3(土)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;齋藤 崇, 瀧澤 悠介&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;p&gt;Agile Japan のサテライト会場にもぜひ足を運んでいただけると嬉しいです。&lt;/p&gt;
+</contents>
+  </entry>
+</feed>
